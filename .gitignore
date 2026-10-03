@@ -1,0 +1,26 @@
+# Claude Code machine-specific state, never commit
+.claude/settings.local.json
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Local environment and secrets
+.env
+.env.local
+
+# Logs and databases produced by a build
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# OS and editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
